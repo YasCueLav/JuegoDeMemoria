@@ -11,11 +11,12 @@ for i in numero {
     
     if i >= 30 && i <= 40 {
         print("\(i) Viva Swift!!!")
-    } else if x == 0 {
+    }
+    if x == 0 {
         print("\(i) Bingo!!!")
     } else if y == 0 {
         print("\(i) Par!!!")
-    } else {
+    } else if y != 0 {
         print("\(i) Impar!!!")
     }
 }
